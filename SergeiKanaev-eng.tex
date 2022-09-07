@@ -23,7 +23,21 @@
 \section{Education}
 \cventry{2008--2013}{Master's degree}{Sevastopol National University of Nuclear Energy and Industry}{Institue of Atomic Energy}{Automation of technological processes and manufactures}{}
 \section{Experience}
-\cventry{11.2019 --- now}{Compiler engineer}{Intel}{Nizhny Novgorod}{\newline{}SYCL}{}
+\cventry{11.2019 --- 09.2022}{Compiler engineer}{Intel}{Nizhny Novgorod}{\newline{}SYCL}{Research and implement features of runtime library for LLVM-based SYCL compiler:%
+\begin{itemize}
+\item implemented host-task SYCL extension in terms of existing runtime library architecture;
+\item basic implementation of kernel and program objects cache to speed up offload of user tasks to target device;
+\item research for and basic implementation of support for assertions in offloaded tasks;
+\item implemented early diagnostic to prevent runtime link errors like `call for undefined funtion';
+\item suggested changes in architecture of runtime library.
+\end{itemize}%
+Semi-managerial duties --- lead a component:%
+\begin{itemize}
+\item help team mates to speed up bugfix and new features implementation;
+\item dispatching of tasks (bugs and features);
+\item scoping of new feature requests, defining dependencies (prior to detailed research).
+\end{itemize}%
+}
 \cventry{06.2018 --- 10.2019}{Software Engineer}{Yandex.Technologies}{Nizhny Novgorod}{\newline{}Directory}{During this project I was involved in:%
 \begin{itemize}
 \item development of database migrations for implementing of backend features;
@@ -83,24 +97,22 @@ input modules;
 \section{About myself}
 \par{I've had vast experience in:}
 \begin{itemize}
-\item \texttt{C} and \texttt{C++} development for GNU/Linux with CLI and \texttt{EFL} or \texttt{QT} GUI, including interprocess communications using \texttt{UNIX sockets}, \texttt{pipe}s and a little of \texttt{DBus} IPC;
+\item \texttt{C} and \texttt{C++} development for GNU/Linux with CLI and a bit of \texttt{EFL} and \texttt{QT} GUI, including interprocess communications using \texttt{UNIX sockets}, \texttt{pipe}s and a little of \texttt{DBus} IPC;
 \item \texttt{bash} shell scripting to run pipelined processes as some sort of daemon with status acquisition, start/stop/restart methods support with per-instance static configuration.
 \end{itemize}
 \par{I have experience with test-driven development.}
 \par{While programming with C++ I've used \texttt{Boost.Asio}, \texttt{STL}, multithreaded and cooperative multitasking.}
-\par{Also I've had experience developing embedded projects with Atmel's 8-bit MCU. These projects were intended to control a set of stepper motors and employed distributed logic to simulate air flow pressures in wind tunnel and simulate liquid flow. For both these projects I've developed both hardware and software.}
+\par{Also I've had some experience developing embedded projects with Atmel's 8-bit MCU. These projects were intended to control a set of stepper motors and employed distributed logic to simulate air flow pressures in wind tunnel and simulate liquid flow. For both these projects I've developed both hardware and software.}
 \par{I've participated at development of the system to monitor vehicles and theirs telemetry and raise an alarm or notification in case of some event (like fueling, drain, enter/exit geo-zone) with satellite navigation technologies (GPS/GLONASS). This required parsing of GPS/GLONASS trackers' protocols, implementing geo-mathematical algorithms, sensor data filtering, etc.}
 \par{At the same time I've had moderate experience with PostgreSQL and SQLite 3 databases in this project.}
-\par{Also, I was involved in development of application that used multigrids to prepare cartographic data for route-finding algorithms based on graph data structures.}
-\par{Also, I'm interested in studying analogue and digital circuitry and ARM assembly as well as networking protocols and cryptography.}
-\par{Also, I have a certificate (No 46694) of registration of copyright on the product:
+\par{I'm interested in studying analogue and digital circuitry and ARM assembly as well as networking protocols and cryptography.}
+\par{Also, I was involved in development of application that used multigrids to prepare cartographic data for route-finding algorithms based on graph data structures. There's a a certificate (No 46694) of registration of copyright on the product for this application}:
 \begin{itemize}
 \item \textbf{Title:} The computer program ``Raster map images to multigrid converter with subsequent conversion into graph-based data structures''
 \item \textbf{Authors:} Mikhnev Sergey S., Kulik Nikolay S., Kvasnikov Vladimir P., Kanaev Sergey V.
 \item \textbf{Property rights after:} National Aviation University, 1 Komarov Ave, Kiev, 03680
 \item \textbf{Registration date} 10.12.2012
-\end{itemize}}
-\par{Currently I'm studying distributed database design principles.}
+\end{itemize}
 
 \clearpage
 \end{document}
