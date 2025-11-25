@@ -23,7 +23,24 @@
 \section{Education}
 \cventry{2008--2013}{Master's degree}{Sevastopol National University of Nuclear Energy and Industry}{Institue of Atomic Energy}{Automation of technological processes and manufactures}{}
 \section{Experience}
-\cventry{11.2019 --- 09.2022}{Compiler engineer}{Intel}{Nizhny Novgorod}{\newline{}SYCL}{Research and implement features of runtime library for LLVM-based SYCL compiler:%
+\cventry{Apr 2024 --- now}{Embedded programmer}{E-COM Robotics}{Almaty}{\newline{}Cubic storage systems}{%
+\textbf{Tags: STM32F103, STM32F429, CAN, RS-485, UART, PID controller, UDP, Mbed OS, Zephyr, HAL, C, C++.}%
+\newline%
+Implement motion control for various mechanisms of cubic storage system.\newline{}%
+In my opinion the best thing I've done during this period is architecture design for remote device firmware update.\newline{}%
+This job includes implementing:%
+\begin{itemize}
+\item communication with motor drivers and sensors via RS-485 and raw UART interfaces;
+\item communication with controlling computer via Ethernet interface with UDP protocol stack;
+\item communication with other devices via CAN interface;
+\item unit-testing of implemented logic with gtest framework;
+\item unit-testing of device control using Zephyr testing framework.
+\end{itemize}
+This job also requires working with associate (mechanical and electronics) teams.}
+\cventry{Nov 2019 --- Sep 2022}{Compiler engineer}{Intel}{Nizhny Novgorod}{\newline{}SYCL}{%
+\textbf{Tags: C++, LLVM, compiler runtime, SYCL.}%
+\newline%
+Research and implement features of runtime library for LLVM-based SYCL compiler:
 \begin{itemize}
 \item implemented host-task SYCL extension in terms of existing runtime library architecture;
 \item basic implementation of kernel and program objects cache to speed up offload of user tasks to target device;
@@ -38,14 +55,21 @@ Semi-managerial duties --- lead a component:%
 \item scoping of new feature requests, defining dependencies (prior to detailed research).
 \end{itemize}%
 }
-\cventry{06.2018 --- 10.2019}{Software Engineer}{Yandex.Technologies}{Nizhny Novgorod}{\newline{}Directory}{During this project I was involved in:%
+\cventry{Jun 2018 --- Oct 2019}{Software Engineer}{Yandex.Technologies}{Nizhny Novgorod}{\newline{}Directory}{%
+\textbf{Tags: Java 8/11, C++, Map-Reduce, PostgreSQL.}%
+\newline%
+During this project I was involved in:
 \begin{itemize}
 \item development of database migrations for implementing of backend features;
 \item implementing of backend features;
 \item interaction with related groups of developers/engineers.
 \end{itemize}%
-Languages: java 8/11, C++, bash, sql.}
-\cventry{10.2016 --- 05.2018}{Engineer}{Brogaming Studio / Starlab Studio}{Samara}{\newline{}Mobile game server development}{During this work I was involved in: %
+}
+\cventry{Oct 2016 --- May 2018}{Engineer}{Brogaming Studio / Starlab Studio}{Samara}{\newline{}Mobile game server development}{%
+\textbf{Tags: C++, perl, bash, SQLite 3, PostgreSQL.}%
+\newline%
+During this work I've had experience with \texttt{libpq}, \texttt{libsqlite3}, \texttt{libev}, \texttt{libconfig} and \texttt{jsoncpp} libraries. Also, I've provided formalized description of problem for new project in order to implement prototype application.\newline{}%
+During this work I was involved in:
 \begin{itemize}
 \item development and implementation of test client to test some server features;
 \item development and implementation of players mathchmaking;
@@ -56,8 +80,11 @@ Languages: java 8/11, C++, bash, sql.}
 \item \texttt{bash}/\texttt{perl} scripting for load testing;
 \item some \texttt{python} testing for simplified game balance calculus;
 \end{itemize}%
-During this work I've had experience with \texttt{libpq}, \texttt{libsqlite3}, \texttt{libev}, \texttt{libconfig} and \texttt{jsoncpp} libraries. Also, I've provided formalized description of problem for new project in order to implement prototype application.}
-\cventry{Jan 2015 --- Sep 2016}{Engineer}{Satellite Soft Labs}{Saratov}{\newline{}SmartTrans NaviCore v3 modules development}{During this work I've developed:%
+}
+\cventry{Jan 2015 --- Sep 2016}{Engineer}{Satellite Soft Labs}{Saratov}{\newline{}SmartTrans NaviCore v3 modules development}{%
+\textbf{Tags: C++, bash, SQLite 3, PostgreSQL, Boost.Asio.}%
+\newline%
+During this work I've developed:
 \begin{itemize}%
 \item GPS/GLONASS telematic data from tracker/relay receiving servers;
 \item telematic data filtering modules;
@@ -79,8 +106,12 @@ During this work I've had experience with:%
 \item shell scripting: \texttt{bash};
 \item multithreading: concurrent and cooperative;
 \item STL.
-\end{itemize}}
-\cventry{Jul 2013 -- Nov 2014}{Engineer}{Samsung R\&D Institute Ukraine}{Kharkov}{\newline{}System software development for Tizen OS}{\textbf{Responsibilities:}%
+\end{itemize}%
+}
+\cventry{Jul 2013 -- Nov 2014}{Engineer}{Samsung R\&D Institute Ukraine}{Kharkov}{\newline{}System software development for Tizen OS}{%
+\textbf{Tags: C, C++, EFL, check test framework.}%
+\newline%
+Responsibilities:%
 \begin{itemize}
 \item writing system software code which does:use DBus interprocess communication, controls
 processes, controls processes with systemd startup manager API;
@@ -92,6 +123,7 @@ input modules;
 
 \section{Languages}
 \cvitemwithcomment{Russian}{Native}{}
+\cvitemwithcomment{Ukrainian}{Native}{}
 \cvitemwithcomment{English}{Intermediate/Technical}{}
 
 \section{About myself}
